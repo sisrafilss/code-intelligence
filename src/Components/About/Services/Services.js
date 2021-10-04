@@ -1,9 +1,16 @@
 import React from 'react';
+import useCourseData from '../../../hooks/useCourseData';
+import Courses from '../../Courses/Courses';
 
 const Services = () => {
+
+    const [courseList] = useCourseData('./fakedata.JSON');
+    console.log(courseList);
+
+
     return (
-        <div>
-            <h2>This is Services</h2>
+        <div className="container my-5">
+            <Courses courses={courseList} />
         </div>
     );
 };
