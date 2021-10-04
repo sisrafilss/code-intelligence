@@ -1,6 +1,6 @@
 # Welcome to Code Intelligence
 
-Please Visit [Create React App](https://educational-services-ih.netlify.app/) to see the live webiste.
+Please Visit [Code Intellignece](https://educational-services-ih.netlify.app/) to see the live webiste.
 
 * Teaching Code with fun is the primary purpose of Code Intellegence.
 
