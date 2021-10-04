@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react"
 
+// Load Data from api or Root folder
 const useCourseData = (url) => {
     const [courses, setCourses] = useState([]);
 

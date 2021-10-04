@@ -1,0 +1,9 @@
+.about-container {
+    margin-top: -48px;
+}
+
+.about-top {
+    background:url('../../images/about-bg.jpeg');
+    background-size: cover;
+    
+}

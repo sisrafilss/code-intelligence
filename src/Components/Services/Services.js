@@ -1,15 +1,15 @@
 import React from 'react';
-import useCourseData from '../../../hooks/useCourseData';
-import Courses from '../../Courses/Courses';
+import useCourseData from '../../hooks/useCourseData';
+import Courses from '../Courses/Courses';
 
 const Services = () => {
 
+    // Import Data from fake data
     const [courseList] = useCourseData('./fakedata.JSON');
-    console.log(courseList);
-
 
     return (
         <div className="container my-5">
+            {/* Dispaly the Courses data loaded from fake Data */}
             <Courses courses={courseList} />
         </div>
     );

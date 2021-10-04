@@ -12,9 +12,9 @@ const Footer = () => {
                     <Nav.Link href="#pricing">Refund Policy</Nav.Link>
                 </Nav>
                 <Nav className="">
-                    <Nav.Link href="#home"><i class="fab fa-facebook-square"></i></Nav.Link>
-                    <Nav.Link href="#features"><i class="fab fa-twitter-square"></i></Nav.Link>
-                    <Nav.Link href="#pricing"><i class="fab fa-youtube"></i></Nav.Link>
+                    <Nav.Link href="#home"><i className="fab fa-facebook-square"></i></Nav.Link>
+                    <Nav.Link href="#features"><i className="fab fa-twitter-square"></i></Nav.Link>
+                    <Nav.Link href="#pricing"><i className="fab fa-youtube"></i></Nav.Link>
                 </Nav>
 
             </Container>

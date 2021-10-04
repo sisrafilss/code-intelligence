@@ -8,7 +8,7 @@ const Header = () => {
 
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="#home">Code Intelligence</Navbar.Brand>
                 <Nav className="mx-auto">
                     <NavLink to="/home" className="nav-item" activeStyle={{
                         fontWeight: "bold",
@@ -28,11 +28,11 @@ const Header = () => {
                     }}>
                         Services
                     </NavLink>
-                    <NavLink to="/custome-page" className="nav-item" activeStyle={{
+                    <NavLink to="/why-coding" className="nav-item" activeStyle={{
                         fontWeight: "bold",
                         color: "red"
                     }}>
-                        Custome Page
+                        Why Coding
                     </NavLink>
                 </Nav>
             </Container>
