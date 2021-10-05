@@ -1,14 +1,24 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
-import './Header.css'
+import { NavLink } from 'react-router-dom';
+import './Header.css';
+import logo from '../../images/logo.png'
 
 const Header = () => {
     return (
 
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Code Intelligence</Navbar.Brand>
+                <Navbar.Brand href="/home">
+                    <img
+                        alt=""
+                        src={logo}
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                    />{' '}
+                    Code Intelligence
+                </Navbar.Brand>
                 <Nav className="mx-auto">
                     <NavLink to="/home" className="nav-item" activeStyle={{
                         fontWeight: "bold",
@@ -16,7 +26,7 @@ const Header = () => {
                     }}>
                         Home
                     </NavLink>
-                    <NavLink to="/about" className="nav-item" aactiveStyle={{
+                    <NavLink to="/about" className="nav-item" activeStyle={{
                         fontWeight: "bold",
                         color: "red"
                     }}>

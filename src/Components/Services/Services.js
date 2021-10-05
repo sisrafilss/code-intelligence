@@ -4,7 +4,7 @@ import Courses from '../Courses/Courses';
 
 const Services = () => {
 
-    // Import Data from fake data
+    // Import Data from fake data using Custom Hook (userCourseData)
     const [courseList] = useCourseData('./fakedata.JSON');
 
     return (

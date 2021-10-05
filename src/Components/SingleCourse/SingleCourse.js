@@ -2,13 +2,11 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const SingleCourse = (props) => {
-    
-    const {title, lessons, price, thumbnail} = props?.course;
-    console.log(title, lessons, price, thumbnail);
-    // console.log(props)
+    // Destructuring All Necessary data from props
+    const { title, lessons, price, thumbnail } = props?.course;
 
     return (
-        <Col> 
+        <Col>
             <Card>
                 <Card.Img variant="top" src={thumbnail} />
                 <Card.Body>

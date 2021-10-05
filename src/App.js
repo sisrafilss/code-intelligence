@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import NotFound from './Components/NotFound/NotFound';
 import About from './Components/About/About';
-
-import CustomPage from './Components/CustomPage/CustomPage';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';

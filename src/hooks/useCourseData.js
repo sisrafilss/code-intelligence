@@ -5,11 +5,11 @@ import { useState } from "react"
 const useCourseData = (url) => {
     const [courses, setCourses] = useState([]);
 
-    useEffect( () => {
+    useEffect(() => {
         fetch(url)
-        .then(res => res.json())
-        .then(data => setCourses(data));
-    }, []);
+            .then(res => res.json())
+            .then(data => setCourses(data));
+    }, [url]);
 
     return [courses];
 }

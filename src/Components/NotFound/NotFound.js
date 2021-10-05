@@ -4,14 +4,16 @@ import img404 from '../../images/404.jpg'
 
 const NotFound = () => {
 
+
     const history = useHistory();
+    // Direct use to Home Page
     const handleBtnClick = () => {
         history.push('/home')
     }
 
     return (
         <div className="container my-5 ">
-            <div className="d-flex align-items-center display-content-center" style={{flexDirection: 'column'}}>
+            <div className="d-flex align-items-center display-content-center" style={{ flexDirection: 'column' }}>
                 <div>
                     <img className="img-fluid mx-auto" style={{ width: '600px' }} src={img404} alt="" />
                 </div>

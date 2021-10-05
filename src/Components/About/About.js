@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
 import './About.css'
 import img from '../../images/about-us.jpg'
 
@@ -9,7 +8,6 @@ const About = () => {
             <div className="about-top">
                 <h2 className="my-5 py-5 text-center text-light display-4 fw-bold">About Us</h2>
             </div>
-
             <div className="container my-5">
                 <div className="row">
                     <div className="col-md-6">
